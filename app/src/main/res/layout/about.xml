@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+<!--  header  -->
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:text="Pengaturan"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/line_satu"
+        android:background="@color/gray_border"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+<!--  pertama  -->
+    <TextView
+        android:id="@+id/teks_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_satu"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Petunjuk bagi Pengguna"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_below="@+id/line_satu"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/next" />
+
+    <View
+        android:id="@+id/line_dua"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/teks_satu"
+        android:layout_marginTop="17dp"
+        android:background="@color/gray_border" />
+
+<!--  kedua  -->
+    <TextView
+        android:id="@+id/teks_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_dua"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Periksa pembaruan"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/line_dua"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Versi saat ini: V1.3.2.0"
+        android:textAlignment="textEnd"
+        android:textColor="@color/version"
+        android:textSize="15dp" />
+
+    <View
+        android:id="@+id/line_tiga"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/teks_dua"
+        android:layout_marginTop="17dp"
+        android:background="@color/gray_border" />
+
+<!--  ketiga  -->
+    <TextView
+        android:id="@+id/teks_tiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_tiga"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Umpan Balik"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_below="@+id/line_tiga"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/next" />
+
+</RelativeLayout>
